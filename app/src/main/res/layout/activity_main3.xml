@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FtameZ"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.qenawi.am.Main3Activity">
+    <TextView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="ROOOOOOOOOOOOOOOD" />
+    <Button
+        android:layout_gravity="bottom|center"
+        android:layout_width="wrap_content"
+        android:text="KK"
+        android:id="@+id/KK"
+        android:layout_height="wrap_content" />
+</FrameLayout>

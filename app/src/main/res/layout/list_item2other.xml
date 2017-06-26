@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/layout3"
+    android:orientation="horizontal">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView6"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/pandacamo" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="30dp"
+        android:layout_height="22dp"
+        android:layout_marginRight="-15dp"
+        android:layout_marginEnd="-10dp"
+        android:layout_gravity="top"
+        android:layout_marginTop="6.5dp"
+        android:src="@drawable/ecco3" />
+
+    <TextView
+        android:id="@+id/item2textother"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_weight="6"
+        android:layout_gravity="top"
+        android:textSize="17.5sp"
+        android:background="@drawable/roundcorner2"
+        android:gravity="top"
+        android:padding="16dp"
+        android:text="Android charting application xml ui design. Android charting application xml ui design tutorial with example. Android charting application xml ui design. Android charting application xml ui design. "
+        android:textColor="#000" />
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add_photo"
+        android:orderInCategory="100"
+        android:title="@string/add"
+        android:icon="@drawable/pandaublood"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/wake_up"
+        android:orderInCategory="100"
+        android:title="@string/Wake_up"
+        android:icon="@drawable/common_full_open_on_phone"
+        app:showAsAction="ifRoom"/>
+</menu>
